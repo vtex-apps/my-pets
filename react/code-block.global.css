@@ -1,0 +1,132 @@
+.my-pet-title {
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+}
+
+.my-pet-box-wrapper .styleguide__box{
+  width:50%;
+}
+
+.my-pet-form {
+  display: flex;
+  margin-top: 10px;
+  flex-direction:column
+}
+.my-pet-form-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top:10px;
+  margin-bottom:10px;
+  /* margin-right: 10px; */
+}
+.my-pet-form-control label {
+  color: #333;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+/* .my-pet-form-control select,
+.my-pet-form-control input {
+  border: 1px solid #d7d7d7;
+  border-radius: 3px;
+  padding-left: 10px;
+  box-shadow: 0 0 2px #d7d7d7;
+  width: 100%;
+  max-width: 320px;
+  height: 29px;
+  line-height: 29px;
+  font-size: 14px;
+} */
+.my-pet-form-date {
+  display: flex;
+  align-items: center;
+}
+.my-pet-form-date select {
+  margin: 0 10px;
+  min-width: 70px;
+}
+.my-pet-form-control:last-child label {
+  margin-left: 10px;
+}
+.my-pet-container > .my-pet-form label {
+  display: none;
+}
+.my-pet-container > .my-pet-form:nth-child(2) label {
+  display: block;
+}
+
+.my-pet-actions {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-pet-new-form {
+  font-size: 14px;
+  color: #2580c7;
+  margin: 0;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.my-pet-button {
+  font-size: 15px;
+  color: #fff;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background: linear-gradient(#fc7813,#fc5b13);
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 2px 3px #aaa;
+  width: 100px;
+  margin-top: 20px;
+  padding: 8px;
+}
+
+.my-pet-delete {
+  color: #444;
+  cursor: pointer;
+}
+
+.my-pet-content-wrapper{
+  display:flex;
+  align-items:flex-start;
+  justify-content:flex-start;
+  position:relative;
+}
+
+.my-pet-card-container .vtex-card{
+  cursor:pointer;
+}
+
+.my-pet-card-container .vtex-card:hover{
+  background-color:#134cd8;
+}
+.my-pet-card-container .vtex-card:hover h5{
+  color:#fff !important;
+}
+
+.my-pet-card-wrapper{
+  justify-content:center;
+}
+
+.my-pet-title-container{
+  text-align:center;
+}
+
+.my-pet-content-wrapper{
+  align-items: center;
+}
+
+.min-w-31{
+  min-width:31%;
+}
+
+.my-pet-card-title{
+  font-weight:bold;
+  font-size:1em;
+}

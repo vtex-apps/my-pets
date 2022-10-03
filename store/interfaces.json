@@ -1,0 +1,8 @@
+{
+  "my-pet-page": {
+    "component": "MyAppPage"
+  },
+  "my-pet-link": {
+    "component": "MyAppLink"
+  }
+}

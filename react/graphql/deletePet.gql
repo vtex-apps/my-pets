@@ -1,0 +1,11 @@
+mutation deletePet(
+  $id: String!
+) {
+  deletePet(
+    id: $id
+  ) {
+    Id
+    DocumentId
+    Href
+	}
+}

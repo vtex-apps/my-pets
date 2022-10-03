@@ -1,0 +1,5 @@
+query getPetImage($pet_id: String, $field: String, $file_name: String) {
+  petImage(id: $pet_id, field: $field, file_name: $file_name) {
+    message
+  }
+}

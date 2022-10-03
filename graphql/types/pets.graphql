@@ -1,0 +1,13 @@
+type Pet {
+    animal_date_of_birth: String
+    animal_name: String 
+    animal_picture: String
+    animal_type: String
+    breed: String
+    customer_id: String
+    email: String
+    id: String
+    quantity: String
+    sterylized: Boolean
+    weight: String
+}

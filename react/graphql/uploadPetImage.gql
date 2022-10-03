@@ -1,0 +1,9 @@
+mutation uploadPetImage(
+  $file: Upload,
+  $record_id: String
+) {
+  uploadPetImage(
+    file: $file,
+    record_id: $record_id
+  )
+}

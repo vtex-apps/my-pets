@@ -1,0 +1,24 @@
+{
+  "name": "node",
+  "version": "1.4.3",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "filereader": "^0.10.3",
+    "form-data": "^3.0.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node10": "^1.0.7",
+    "@vtex/api": "^3.3.1",
+    "eslint": "^5.16.0",
+    "eslint-config-vtex": "^10.1.0",
+    "prettier": "^1.18.2",
+    "typescript": "3.9.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,302 @@
+.choosePetTypeTitleContainer {
+  background-color: white;
+  text-align: center;
+  padding: 8px 0;
+}
+.insertPetDataTitleContainer {
+  position: relative;
+  background-color: #fad736;
+  text-align: center;
+  padding: 8px 0;
+  overflow: hidden;
+}
+.choosePetTypeContainer {
+  background-color: #fad736;
+}
+.choosePetTypeContainer {
+  background-color: #fad736;
+}
+.overflowHiddenContainer {
+  overflow: hidden;
+}
+.petTypeWrapper {
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 8px;
+}
+.petTypeIcon {
+  width: 48px;
+  height: 48px;
+}
+.petTypeIconContainer {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.petTypeTitleContainer {
+  display: flex;
+  align-items: center;
+}
+.petTypeTitle {
+  font-size: 16px;
+}
+.petSterylizedCheckboxContainer {
+  margin: 8px 0;
+}
+.petBirthDateDropdownContainer {
+  display: flex;
+  align-items: center;
+}
+
+.petFormControl {
+  margin: 12px 0;
+}
+
+.petFormButtonsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.petFormSaveButton {
+  width: 85px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #fad736;
+  border: none;
+  margin-top: 16px;
+}
+
+.petFormDeleteButton {
+  width: 85px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #fad736;
+  border: none;
+  margin-top: 16px;
+}
+
+.petFormImageUploadContainer {
+  margin-top: 16px;
+}
+
+.petBirthDateDropdownContainer {
+  padding-top: 8px;
+}
+
+.choosePetTypeTitle {
+  margin: 10px 0;
+}
+.insertPetDataTitle {
+  margin: 10px 0;
+}
+
+.petBirthdayInputsContainer {
+  display: flex;
+  align-items: center;
+}
+
+.petImageUploadContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.petImageUploadLabel {
+  padding-bottom: 8px;
+}
+
+.petFormControlLabelContainer {
+  padding-bottom: 4px;
+}
+
+.yellowCurveFormContainer {
+  display: none;
+}
+
+.yellowRotatedCurveContainer {
+  display: none;
+}
+
+.innerPetFormContainer {
+  padding: 8px 24px;
+      width: 85%;
+    margin: auto;
+}
+
+.petTypeIconDecorationContainer {
+  display: none;
+}
+
+.petSterylizedFormControl {
+  display: flex;
+  align-items: center;
+}
+
+.petSterylizedInputContainer {
+  display: flex;
+  align-items: center;
+}
+
+.petSterylizedLabelContainer {
+  padding-top: 3px;
+}
+
+@media only screen and (min-width: 768px) {
+  .animalsBoxAndFormWrapper {
+    width: 100%;
+  }
+  .petTypeRow {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 0;
+  }
+  .petTypeWrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 50px;
+    border-radius: 12.5px;
+    background-color: white;
+  }
+  .petTypeIconContainer {
+    width: auto;
+  }
+  .petTypeTitle {
+    margin: 8px 0;
+  }
+  
+  .petFormControlType {
+    display: flex;
+    align-items: center;
+  }
+
+  .petFormControlName {
+    display: flex;
+    align-items: center;
+  }
+
+  .petFormControlBirthDate {
+    display: flex;
+    align-items: center;
+  }
+
+  .petFormControlBreed {
+    display: flex;
+    align-items: center;
+  }
+
+  .petFormControlWeight {
+    display: flex;
+    align-items: center;
+  }
+
+  .petFormControlQuantity {
+    display: flex;
+    align-items: center;
+  }
+
+  .petTypeCardContainer {
+    width: 30%;
+  }
+  .choosePetTypeContainer {
+    overflow: hidden;
+    border-bottom-left-radius: 12.5px;
+    border-bottom-right-radius: 12.5px;
+  }
+  .insertPetDataTitleContainer {
+    border-top-left-radius: 12.5px;
+    border-top-right-radius: 12.5px;
+  }
+  .yellowCurveFormContainer {
+    display: block;
+    height: 100px;
+    overflow: hidden;
+    width: 100%;
+    margin-top: -70px;
+  }
+  .yellowCurveForm {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+  }
+  .yellowCurveFormPath {
+    stroke: none;
+    fill: #fad736;
+  }
+  .yellowRotatedCurveContainer {
+    display: block;
+    height: 100px;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: -45px;
+  }
+  .yellowRotatedCurve {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    transform: rotate(180deg);
+  }
+  .yellowRotatedCurvePath {
+    stroke: none;
+    fill: #fad736;
+  }
+  .petTypeIconDecorationBox {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 53%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    z-index: 200;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50%;
+  }
+  .petTypeIconDecorationContainer {
+    display: block;
+  }
+  .petTypeIconDecoration {
+    width: 48px;
+  }
+  .insertPetDataDescription {
+    margin-bottom: 48px;
+  }
+  .petImageUploadDropzone {
+    max-width: 130px;
+  }
+  .petFormContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .innerPetFormContainer {
+    width: 75%;
+    align-self: center;
+  }
+  .petFormControlInputContainer {
+    margin-left: 12px;
+    flex-grow: 1;
+  }
+  .petFormControlInput {
+    border: 0;
+    border-bottom: 2px solid #dddddd;
+    width: 100%;
+  }
+  .petFormControlLabel {
+    font-weight: 600;
+    padding: 0 4px;
+  }
+  .petSterylizedInputContainer {
+    padding-left: 4px;
+  }
+  .petFormSaveButton {
+    width: 70%;
+  }
+  .petFormControlLabelContainer {
+    padding-bottom: 0;
+  }
+  .petFormButtonsContainer {
+    justify-content: space-around;
+  }
+}

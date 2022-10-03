@@ -1,0 +1,15 @@
+query pet($pet_id: String) {
+  pet(id: $pet_id) {
+    animal_date_of_birth
+    animal_name
+    animal_picture
+    animal_type
+    breed
+    customer_id
+    email
+    id
+    quantity
+    sterylized
+    weight
+  }
+}

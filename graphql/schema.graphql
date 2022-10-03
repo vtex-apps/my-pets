@@ -1,0 +1,42 @@
+type Query {
+  pets(customer_id: String): [Pet]
+  pet(
+    id: String
+    ): Pet
+  getToken: String
+}
+
+type Mutation {
+  createPet(
+    animal_date_of_birth:String!
+    animal_name:String!
+    animal_picture: String
+    customer_id: String, 
+    email: String, 
+    animal_type: String,
+    breed: String,
+    quantity: String,
+    sterylized: Boolean,
+    weight: String,
+    id: String,
+    ): CreatePetResponse
+
+  deletePet(id: String!) : CreatePetResponse
+}
+
+type CreatePetResponse {
+  Id: String
+  Href: String
+  DocumentId: String
+  animal_date_of_birth: String
+  animal_name: String
+  animal_picture: String
+  animal_type: String
+  breed: String
+  email: String
+  id: String
+  customer_id: String
+  quantity: String
+  sterylized: Boolean
+  weight: String
+}

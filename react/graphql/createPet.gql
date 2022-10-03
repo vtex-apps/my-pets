@@ -1,0 +1,41 @@
+mutation createPet(
+  $animal_date_of_birth: String!
+  $animal_name: String!, 
+  $animal_picture: String, 
+  $animal_type: String,
+  $breed: String,
+  $customerId: String, 
+  $email: String!, 
+  $id: String
+  $quantity: String,
+  $sterylized: Boolean,
+  $weight: String,
+) {
+  createPet(
+    animal_date_of_birth: $animal_date_of_birth,
+    animal_name: $animal_name,
+    animal_picture: $animal_picture,
+    animal_type: $animal_type,
+    breed: $breed,
+    customer_id: $customerId,
+    email: $email,
+    id: $id,
+    quantity: $quantity,
+    sterylized: $sterylized,
+    weight: $weight
+  ) {
+    Id
+    DocumentId
+    Href
+    animal_date_of_birth
+    animal_name
+    animal_picture
+    animal_type
+    breed
+    customer_id
+    id
+    quantity
+    sterylized
+    weight
+	}
+}
